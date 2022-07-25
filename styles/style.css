@@ -1,0 +1,283 @@
+/* --------------------------full website common design------------------------------------------------------------- */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* -----------------------------------------------------menu start------------------------------------------------ */
+.menu-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(241, 121, 121);
+    padding: 5px;
+    color: rgb(247, 240, 240);
+    align-items: center;
+}
+.menu-title{
+    font-style: italic;
+    /* padding: 10px; */
+    font-size: 28px;
+    align-items: left;
+}
+.menu-items{
+    display: flex;   
+}
+.menu-items li{
+    list-style: none;
+    margin: 5px;
+    padding: 10px;
+    font-size: 18px;
+    
+}
+.menu-items li a:hover{
+    color: aqua;
+}
+.menu-items li a{
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(248, 239, 239);
+}
+/* --------------------------------------menu end------------------------------------------------------------- */
+    
+/* ----------------------------------------banner start-------------------------------------------------- */
+.banner-container{
+    color: #fff;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    background-color: rgb(12, 1, 1);
+
+}
+.banner-description{
+    margin-left: 25px;
+}
+.banner-text{
+    color: red;
+    font-size: 24px;
+    margin: 10px;
+}
+.title1{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 10px;
+}
+.banner-text2{
+    font-size: 24px;
+    font-weight: normal;
+    margin: 10px;
+}
+.banner-btn{
+    padding:18px 38px ;
+    background-color: rgb(250, 39, 39);
+    font-size: 18px;
+    color: rgb(253, 251, 251);
+    border-radius: 10px;
+}
+.banner-btn:hover{
+    background: blue;
+    transition: 1s;
+}
+
+.banner-img:hover{
+    filter: drop-shadow(0px 10px 3px rgb(243, 234, 234));
+    transition: 1s;
+}
+/* ----------------------------------------banner start-------------------------------------------------- */
+/*  --------------------------------------------section two + card start-------------------------------------------- */
+.section-two{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.st-title{
+    text-align: center;
+    font-size: 40px ;
+    font-weight: bold;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    margin-top:40px;
+    padding: 30px;
+    height: 250px;
+    width: 350px;
+    border: 1px solid rgb(241, 197, 197);
+    text-align: center;
+    box-shadow: 8px 8px 16px gray;
+    border-radius: 10px;
+}
+.card:hover{
+    margin-top:20px;
+    border: 1px solid red;
+    transition: 1s;
+}
+.card-img{
+    width: 50px;
+    
+}
+.card-description{}
+/*  --------------------------------------------card end-------------------------------------------- */
+
+/* -----------------------------------------about start------------------------------------------ */
+.section-three{
+    margin-top: 90px;
+    background-color: rgb(70, 66, 66);
+    color: #fff;
+}
+.title2{
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+hr{
+    border: 1px solid gray;
+    width: 70%;
+    justify-content: center;
+    margin: auto;
+}
+.about-left{
+    width: 50%;
+}
+.about-right{
+    width: 50%;
+}
+.workout-img{
+    
+    margin-top: 20px;
+    display: flex;
+    padding: 50px 0px 50px 10px;
+}
+.workout-img img{
+    width: 300px;
+    height: 550px;
+    
+    transform: skewY(-16deg);
+}
+.about{
+    display: flex;
+}
+.about-description{
+    margin-top: 20px;
+    margin-top: 80px;  
+}
+.about-description li{
+    font-size: 24px;
+}
+.about-btn{
+    margin-top: 50px;
+}
+.about-btn a{
+    text-decoration: none;
+
+}
+/* -----------------------------------------about end------------------------------------------ */
+
+/* ----------------------workout-container start------------------------------- */
+.workout-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 450px;
+    height: 250px;
+    background-image: url("../images/shape/Group_33094_1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.workout-btn button{
+    border-radius: 10px;
+    padding: 10px;
+}
+/* ----------------------workout-container end------------------------------- */
+
+/* -----------------------------------------service card start--------------------------- */
+
+.service-container{
+    
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    
+}
+.service-title{
+    text-align: center;
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.card-item{
+    width: 300px;
+    height: 380px;
+    border: 1px  rgb(19, 18, 18);
+    box-shadow: 8px 8px 16px gray;
+}
+.s-card-img{
+    width: 300px;
+    height: 200px;
+}
+.s-card-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.join-today{
+    color: red;
+}
+.s-card-description{
+    margin-left: 5px;
+}
+.s-card-description h3{
+    color: red;
+}
+.s-card-footer{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.service-cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    
+}
+/* -----------------------------batch------------------------------------------- */
+.batch{
+    position: relative;
+}
+.batch-img{
+    width: 50px;
+    top: -28px;
+    left: 250px;
+    position: absolute;
+    
+}
+/* -----------------------------------------service card end--------------------------- */
+.footer{
+    align-items: center;
+    margin-top: 40px;
+}
+.footer hr{
+    width: 90%;
+}
+.footer-item{
+    margin:40px 0px ;
+}
+.footer-social{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.footer-social h3{
+    margin-left: 10px;
+}
+.copyright-line{
+    text-align: center;
+}
+.copyright{
+    text-decoration: none;
+}
